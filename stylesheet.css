@@ -1,0 +1,16 @@
+body{
+	background-image: url(img/woodblack.jpg);
+	height: 800px;
+}
+
+.resumeBox{
+	width: 650px;
+	height: 700px;
+	border-style: solid;
+	border-color: white;
+	position: relative;
+	left: 350px;
+	top: 40px;
+	background-color: grey;
+	box-shadow: 2px 2px 2px grey;
+}
