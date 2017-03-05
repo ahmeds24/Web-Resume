@@ -7,6 +7,7 @@ body{
 	width: 320px;
 	height: 280px;
 }
+/*--------------------------------------------Resume Box-----------------------------*/
 
 .resumeBox{
 	width: 750px;
@@ -20,7 +21,7 @@ body{
 	box-shadow: 2px 2px 2px grey;
 	background-image: url(img/paper.jpg);
 }
-
+/*--------------------------------------------Top of Resume Box-----------------------------*/
 #nameBox{
 	border: 2px solid black;
 	width: 450px;
@@ -59,11 +60,13 @@ body{
    bottom: 985px;
 }
 
+/*--------------------------------------------Middle of Resume Box-----------------------------*/
+
 .rightBox{
 	border-right: solid;
 	border-right-color: #c2c2c2;
 	width: 305px;
-	height: 700px;
+	height: 740px;
 	position: relative;
 	top: 174px;
 	display: inline-block;
@@ -76,7 +79,7 @@ body{
 	border-left: solid;
 	border-left-color: #c2c2c2;
 	width: 305px;
-	height: 700px;
+	height: 740px;
 	position: absolute;
 	top: 279px;
 	display: inline-block;
@@ -84,17 +87,55 @@ body{
 	padding-left: 30px;
 }
 
+.awardRight{
+	border-right: solid;
+	border-right-color: #c2c2c2;
+	width: 50px;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+	padding-left: 30px;
+	bottom: 25px;
+}
+
+.awardLeft{
+	border-left: solid;
+	border-left-color: #c2c2c2;
+	width: 100px;
+	height: 70px;
+	position: relative;
+	display: inline-block;
+	padding-left: 30px;
+	right: 7px;
+}
+
+/*-------------------------------------------- Bottom of Resume Box-----------------------------*/
+
 .footerBox{
 	border-top: solid;
 	border-top-color: #c2c2c2;
 	width: 580px;
 	height: 100px;
 	position: absolute;
-	left: 440px;
+	left: 90px;
 	top: 1050px;
 	text-align: center;
 }
 
+.icon{
+	width: 23px;
+	height: 23px;
+	padding-bottom: 3px;
+}
+
+.footerBox div{
+    display: inline-block;
+	width: 170px;
+	height: 100px;
+}
+
+
+/*----------------Font Design---------------------*/
 
 h5{
 	font-size: 12px;
@@ -114,14 +155,9 @@ p b{
 }
 
 td{
-	font-size: 12px;
+	font-size: 11px;
 	margin-top: 0;
 	color: #1c1c1c;
 	font-family: "Times New Roman";
 	font-weight: bold;
-}
-
-.icon{
-	width: 30px;
-	height: 30px;
 }
